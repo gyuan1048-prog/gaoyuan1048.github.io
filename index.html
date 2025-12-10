@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <title>高源 - 在线简历</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif;
+      line-height: 1.6;
+      background: #f5f7fb;
+      color: #222;
+    }
+    .page {
+      max-width: 900px;
+      margin: 32px auto;
+      background: #fff;
+      padding: 32px 24px 40px;
+      box-shadow: 0 16px 40px rgba(15, 23, 42, .15);
+      border-radius: 12px;
+    }
+    h1 { font-size: 28px; margin-bottom: 4px; }
+    h2 { font-size: 20px; margin: 24px 0 12px; border-left: 4px solid #2563eb; padding-left: 8px; }
+    h3 { font-size: 16px; margin-top: 12px; }
+    p, li { font-size: 14px; }
+    .topline { display: flex; flex-wrap: wrap; justify-content: space-between; margin-bottom: 12px; }
+    .muted { color: #666; }
+    .tagline { margin-top: 4px; color: #444; }
+    .contact a { color: #2563eb; text-decoration: none; }
+    .contact a:hover { text-decoration: underline; }
+    ul { margin-left: 18px; margin-top: 4px; }
+    .pill {
+      display: inline-block;
+      padding: 2px 8px;
+      margin: 0 4px 4px 0;
+      border-radius: 999px;
+      background: #eff6ff;
+      color: #1d4ed8;
+      font-size: 12px;
+    }
+    .subline { font-size: 13px; color: #555; margin-bottom: 4px; }
+    .meta { font-size: 13px; color: #777; }
+    .section-block { margin-bottom: 8px; }
+    @media (max-width: 600px) {
+      .page { margin: 16px; padding: 20px 16px 28px; }
+      .topline { flex-direction: column; gap: 4px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header>
+      <div class="topline">
+        <div>
+          <h1>高源</h1>
+          <p class="tagline">大数据管理与应用 / 数据分析 & 机器学习方向</p>
+        </div>
+        <div class="contact">
+          <p class="muted">
+            邮箱：<a href="mailto:gaoyuan01212024@163.com">gaoyuan01212024@163.com</a> /
+            <a href="mailto:gyuan1048@gmail.com">gyuan1048@gmail.com</a><br/>
+            手机：(+86) 152 4714 9339
+          </p>
+        </div>
+      </div>
+      <p class="muted">擅长数据处理、机器学习建模与结果解释，具备扎实的数学与统计基础，能将理论方法落地到实际业务与科研场景。</p>
+    </header>
+
+    <main>
+      <section>
+        <h2>教育背景</h2>
+        <div class="section-block">
+          <h3>北京科技大学 · 东凌经济管理学院</h3>
+          <p class="subline">大数据管理与应用专业（本科） · 2023.09 - 2027.06</p>
+          <p class="meta">GPA 89.8（约前 13%）</p>
+          <p class="meta">
+            主修课程：概率论与数理统计(98)、离散数学(90)、微积分(93)、Java 程序设计(90)、数据库原理(92)、
+            数据结构与算法分析(95)、大数据管理与方法应用(91)、大数据技术(96)、宏观经济学(95)、应用统计学(91)
+          </p>
+        </div>
+        <div class="section-block">
+          <h3>北京科技大学 · 外国语学院</h3>
+          <p class="subline">英语专业（辅修） · 2024.09 - 2026.07</p>
+        </div>
+        <div class="section-block">
+          <p>
+            <strong>语言与技能：</strong>
+            IELTS 6.0，CET-6；熟练掌握 Java、Python、R、SQL、MATLAB、SPSS、Lingo 等；
+            熟悉 Hadoop 生态、Hive、Spark、Flink 等大数据处理框架。
+          </p>
+          <p>
+            <strong>荣誉奖励：</strong>
+            人民奖学金二等奖（2025）、三等奖（2024），大学生数学竞赛（非数学类）二等奖，大学生物理竞赛二等奖。
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <h2>项目经历</h2>
+
+        <div class="section-block">
+          <h3>就业需求匹配度的机器学习研究 · SRTP 项目 · 核心成员</h3>
+          <p class="meta">2024.11 - 至今</p>
+          <ul>
+            <li>使用 Python 爬取 10 余所高校课程数据与 5000+ 条企业招聘信息，基于 NLP 对文本进行解析与关键技能词提取。</li>
+            <li>利用 Pandas / Numpy 完成数据清洗与特征构建，基于 Scikit-learn 搭建随机森林与 SVM 模型，通过交叉验证优化表现。</li>
+            <li>构建经管类技能-需求匹配数据库，形成从数据采集、建模分析到实证研究的完整闭环，输出万字研究报告及论文初稿。</li>
+          </ul>
+        </div>
+
+        <div class="section-block">
+          <h3>“高教社杯”全国大学生数学建模竞赛 · 队长</h3>
+          <p class="meta">2025.07 - 2025.09 · 北京赛区二等奖（Top 15%）</p>
+          <ul>
+            <li>基于临床数据清洗与处理 800+ 样本，提取 12 维核心特征，并通过 Kendall's Tau 与 Spearman 双阶段筛选出 8 个关键指标。</li>
+            <li>独立编写 2000+ 行 Python 代码，构建逻辑回归、SVM 等 5 种模型，使用 5 折交叉验证评估性能。</li>
+            <li>创新性地将 AHP 层次分析法与模型召回率结合构建混合加权投票机制，增强模型稳定性，降低染色体非整倍体漏诊风险。</li>
+            <li>主导撰写 1.5 万字研究论文，完整呈现建模逻辑、实验设计与验证结果。</li>
+          </ul>
+        </div>
+
+        <div class="section-block">
+          <h3>贵州茅台股价 AI 预测系统 · “人工智能+”创意赛 · 核心成员</h3>
+          <p class="meta">2025.07 - 2025.09</p>
+          <ul>
+            <li>用 Python 爬取 13.34 万条股吧评论，通过 BERT 模型（F1=90.4%）量化情感指数，并与金融市场数据融合建模。</li>
+            <li>经特征筛选后构建 CNN-LSTM 模型（准确率 86.95%），性能优于随机森林等基准模型。</li>
+            <li>完成情感分析与价格预测双模型开发，产出 625 天高质量数据集及可视化 demo，提交完整策划书与功能演示。</li>
+          </ul>
+        </div>
+
+        <div class="section-block">
+          <h3>二手车价格智能评估与可视化洞察 · 核心成员</h3>
+          <p class="meta">2025.07 - 2025.09</p>
+          <ul>
+            <li>对天池平台 40 万条二手车数据进行清洗、缺失值填充、异常值处理及特征工程。</li>
+            <li>搭建 LightGBM、CatBoost、MLP 三类基模型，采用十折交叉验证调参，并通过 Stacking 与加权平均构建三层融合模型。</li>
+            <li>融合模型在测试集 MAE 为 128.89，MAPE 2.38%，95% 车辆预测误差低于 10%；结合 SHAP 值进行可解释性分析并可视化展示。</li>
+            <li>搭建前后端协同 Web 预测平台，实现“数据展示-模型预测-结果反馈”的闭环。</li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <h2>学生工作与其他</h2>
+        <div class="section-block">
+          <h3>北京科技大学学业中心 · 朋辈讲师</h3>
+          <p class="meta">2025.03 - 至今</p>
+          <ul>
+            <li>负责概率论等课程的系统性梳理与辅导，为多名同学提供一对一与小组辅导，显著提升课程理解度与考试成绩。</li>
+            <li>针对贝叶斯定理、大数定律等难点设计讲解方案与练习，锻炼了将抽象理论转化为易理解语言的能力。</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
